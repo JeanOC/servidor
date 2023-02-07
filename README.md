@@ -1,7 +1,7 @@
 # Servidor Crud
 
-Este es el back-end del sistema de [Nombre].
-Acá se conecta la [LINK]() y el [LINK]().
+Este es el back-end del sistema de crud.
+Acá se conecta la [https://github.com/JeanOC/servidor]() y el [https://github.com/JeanOC/crud]().
 
 ## Contenido
 
@@ -10,7 +10,7 @@ El proyecto esta realizado en:
 
 - [Node.js](https://nodejs.org/es/)
 - [express.js](https://expressjs.com/es/)
-- [GraphQL](https://graphql.org/)
+- [mongoose](https://www.npmjs.com/package/mongoose)
 - [MongoDB](https://www.mongodb.com/es)
 
   **ESTE ES UN SERVIDOR NO VISUAL**
@@ -19,7 +19,7 @@ El proyecto esta realizado en:
 
 Para poder utilizar el proyecto en localhost en necesario clonarlo y tener algunos programas necesarios:
 
-- [Nodejs](https://nodejs.org/es/download/) v12.18.0 o Superior.
+- [Nodejs](https://nodejs.org/es/download/) v15.0.0 o Superior.
 - IDE de desarrollo de tu comodidad Ej. [VS Code](https://code.visualstudio.com/download)
 - [PostMan](https://www.postman.com/downloads/) para puebas de APIS. (Opcional)
 - [Git](https://git-scm.com/downloads) para poder gestionar las versiones.
@@ -30,7 +30,7 @@ Comando para clonar:
 
 ```bash
 cd existing_folder
-git clone [LINK DEL REPOSITORIO]
+git clone https://github.com/JeanOC/servidor.git
 
 ```
 
@@ -61,7 +61,7 @@ Este a su vez ejecutara nodemon app.js, el cual ayudará a la funcionalidad de p
 Cuando las llaves esten en modo producción ejecutar el comando:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Este a su vez ejecutará el comando node app.js el cual estará preparado para la ejecución del servidor en producción
